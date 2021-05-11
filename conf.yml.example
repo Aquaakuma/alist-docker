@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 info:
   title: AList #标题
   logo: "" #网站logo 如果填写,则会替换掉默认的
@@ -34,6 +33,3 @@ ali_drive:
 database:
   type: sqlite3
   dBFile: alist.db
-=======
-
->>>>>>> Stashed changes

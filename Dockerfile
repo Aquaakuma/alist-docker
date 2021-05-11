@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # 使用官方 Golang 镜像作为构建环境
 FROM golang:1.16.4-alpine3.13 as builder-golang
 
@@ -66,6 +65,4 @@ RUN apk update && \
 VOLUME ["/config"]
 
 # 启动 Web 服务
-ENTRYPOINT ["sh", "-c", "./entrypoint.sh"] 
-=======
->>>>>>> Stashed changes
+ENTRYPOINT ["sh", "-c", "./entrypoint.sh"]

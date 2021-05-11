@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 #!/bin/bash
 
 set -e
@@ -28,5 +27,3 @@ fi
 # fi
 
 ./alist -skip-update -conf /config/conf.yml
-=======
->>>>>>> Stashed changes

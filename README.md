@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ### alist-docker
 
 这是一个非官方的dockerize的Alist。
@@ -77,5 +76,3 @@ services:
       - 5244:5244
     restart: unless-stopped
 ```
-=======
->>>>>>> Stashed changes
