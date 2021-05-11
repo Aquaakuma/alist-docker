@@ -59,7 +59,8 @@ COPY --from=builder-vue /src/output/ /app/
 RUN apk update && \
   apk add --no-cache bash ca-certificates && \
   update-ca-certificates && \
-  rm -rf /var/cache/apk/*
+  rm -rf /var/cache/apk/* && \
+  chmod +x entrypoint.sh alist
 
 # 挂载点
 VOLUME ["/config"]
