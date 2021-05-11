@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #!/bin/bash
 
 set -e
@@ -26,5 +27,6 @@ fi
 #   sed -i 's/\[password\]/'$PASSWORD'/g' ./conf.yml
 # fi
 
-chmod +x ./alist
-./alist -conf /config/conf.yml
+./alist -skip-update -conf /config/conf.yml
+=======
+>>>>>>> Stashed changes
