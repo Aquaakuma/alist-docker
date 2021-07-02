@@ -2,7 +2,7 @@
 FROM golang:1.16.4-alpine3.13 as builder-golang
 
 # 主程序版本号
-ARG ALIST_VERSION=1.0.4
+ARG ALIST_VERSION=1.0.5
 
 # 设置工作目录
 WORKDIR /src
@@ -26,7 +26,7 @@ RUN set -x && \
 FROM node:12.22.1-buster as builder-vue
 
 # 静态文件版本号
-ARG ALIST_WEB_VERSION=1.0.4
+ARG ALIST_WEB_VERSION=1.0.5
 
 # 设置工作目录
 WORKDIR /src
